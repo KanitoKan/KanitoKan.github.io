@@ -1,0 +1,91 @@
+html{
+    scroll-behavior: auto !important;
+}
+
+body{
+    background-color: black !important;
+    font-family: "Lexend Deca";
+}
+
+
+/* Navbar  */
+
+.navbar{ 
+    background-color: transparent;
+    position:fixed;
+    width: 100vw;
+    z-index: 1;
+}
+
+.navbar-brand{
+    background-color: transparent;
+   
+}
+
+/* Carrusel */
+
+.carousel-item {
+    width: 100%;
+    height: 700px;
+}
+
+
+/*Footer */
+
+#Footer{
+    background-color: #06cdff;
+}
+
+#Footer a{
+    color: white;
+    text-decoration: none;
+}    
+
+#Footer div:last-child h1:first-child{
+    font-family: "Oswlad";
+    font-weight: bold;
+}
+
+
+/* Iconos de la seccion Quienes somos */
+.Iconos{
+    background-color: #06cdff !important;    
+}
+
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
+
+/* Font de los titulos de las secciones */ 
+
+.Letra_Titulo{
+    font-family: "Francois One";
+    font-size: 50px;    
+}
+
+/* Font de los titulos de las tarjetas */ 
+
+.Letra_Titulo_Car{
+    font-family:"Francois One";
+    font-size: 20px;    
+        
+}
+
+/* Font de los titulos venta modal */ 
+
+.modal-title{
+    font-family:"Francois One";
+    font-size: 30px;    
+    font-style: italic;
+}
+
+
+/* Boton contacto */
+
+.correo{
+    background-color: #06cdff   !important;
+    border-color: aqua;
+}
